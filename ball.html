@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ball.css">
+    <title>ScoreBall</title>
+</head>
+<body>
+    <div class="container">
+        <div class="home-score">
+            <h1 class="home-title">HOME</h1>
+            <span id="num1-el"></span>
+            <div  class="firstButtons">
+                <button class="btn" id="shortthrow-home-el" onclick="shorthrowHome()">+1</button>
+                <button class="btn" id="midrange-home-el" onclick="midrangeHome()">+2</button>
+                <button class="btn" id="longthrow-home-el" onclick="longthrowHome()">+3</button>
+            </div>
+        </div>
+        <div class="guest-score">
+            <h1 class="guest-title">GUEST</h1>
+            <span id="num2-el"></span>
+            <div class="secondButtons">
+                <button class="btn" id="shortthrow-guest-el" onclick="shortthrowGuest()">+1</button>
+                <button class="btn" id="midrange-guest-el" onclick="midrangeGuest()">+2</button>
+                <button class="btn" id="longthrow-guest-el" onclick="longthrowGuest()">+3</button>
+            </div>
+        </div>
+    </div>
+<script src="ball.js"></script>    
+</body>
+</html>
+
+
+
+
